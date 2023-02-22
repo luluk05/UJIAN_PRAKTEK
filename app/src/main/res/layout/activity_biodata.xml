@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".biodata">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="#8C2505">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/profil_circle"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROFIL"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama:"
+        android:layout_margin="0dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alex Ferguso"
+        android:layout_margin="0dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umur:"
+        android:layout_margin="0dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="25 Th"
+        android:layout_margin="0dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender:"
+        android:layout_margin="0dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pria"
+        android:layout_margin="0dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempat tinggal:"
+        android:layout_margin="0dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kab. Demak"
+        android:layout_margin="0dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+    </LinearLayout>
+
+</LinearLayout>
